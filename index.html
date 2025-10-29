@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://tse1.mm.bing.net/th/id/OIP.r9tTG2qDDjOt8yjyVSErSwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" type="image/x-icon">
+    <title>🗿 1.0</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header>
+        <div class="flex justify-between items-center mr-5 ml-5 mt-3 mb-2">
+            <div>
+                <a href="/index.html"
+                class="font-semibold uppercase">Home</a>
+            </div>
+            <div>
+                <a href="/aura.html"
+                class="text-[50px]
+                hover:text-[55px] hover:transition-all hover:duration-500">🗿</a>
+            </div>
+        </div>
+        <div class="w-screen h-auto bg-gray-500 flex justify-center text-white uppercase font-bold">
+            <p>Pedra, papel ou tesoura</p>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="flex justify-center items-center gap-5">
+                <div class="flex flex-col justify-center items-center w-[300px] gap-2 mt-2 border-1 border-gray-500 p-5">
+                    <p class="uppercase font-bold">pedra</p>
+                    <img src="https://images.emojiterra.com/microsoft/fluent-emoji/1024px/1f5ff_color.png" 
+                    alt="tesoura"
+                    class="w-[250px] h-[250px]
+                    hover:w-[255px] hover:h-[255px] hover:transition-all hover:duration-500">
+                    <div class="flex justify-center flex-col gap-2">
+                        <button class="cursor-pointer border-1 border-green-400 pl-5 pr-5 pt-1 pb-1 text-green-400
+                        hover:bg-green-400 hover:text-white hover:transition-all hover:duration-500"
+                        id="pedra">Selecionar</button>
+                        <button class="cursor-pointer border-1 border-gray-500 pl-3 pr-3 pt-1 pb-1 text-gray-500
+                        hover:bg-gray-500 hover:text-white hover:transition-all hover:duration-500"
+                        onclick=mensagemSaibaMais()>Saiba mais</button>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center w-[300px] gap-2 mt-2 border-1 border-gray-500 p-5">
+                    <p class="uppercase font-bold">papel</p>
+                    <img src="https://pngimg.com/uploads/paper_sheet/paper_sheet_PNG7250.png" 
+                    alt="tesoura"
+                    class="w-[250px] h-[250px]
+                    hover:w-[255px] hover:h-[255px] hover:transition-all hover:duration-500">
+                    <div class="flex justify-center flex-col gap-2">
+                        <button class="cursor-pointer border-1 border-green-400 pl-5 pr-5 pt-1 pb-1 text-green-400
+                        hover:bg-green-400 hover:text-white hover:transition-all hover:duration-500"
+                        id="papel">Selecionar</button>
+                        <button class="cursor-pointer border-1 border-gray-500 pl-3 pr-3 pt-1 pb-1 text-gray-500
+                        hover:bg-gray-500 hover:text-white hover:transition-all hover:duration-500"
+                        onclick=mensagemSaibaMais()>Saiba mais</button>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center w-[300px] gap-2 mt-2 border-1 border-gray-500 p-5">
+                    <p class="uppercase font-bold">Tesoura</p>
+                    <img src="https://images.tcdn.com.br/img/img_prod/871419/tesoura_de_corte_alfaiate_profissional_lanmax_2311_1_3ca8e6722cc11c6f81b3b16c00f1fb4f.jpg" 
+                    alt="tesoura"
+                    class="w-[250px] h-[250px]
+                    hover:w-[255px] hover:h-[255px] hover:transition-all hover:duration-500">
+                    <div class="flex justify-center flex-col gap-2">
+                        <button class="cursor-pointer border-1 border-green-400 pl-5 pr-5 pt-1 pb-1 text-green-400
+                        hover:bg-green-400 hover:text-white hover:transition-all hover:duration-500"
+                        id="tesoura">Selecionar</button>
+                        <button class="cursor-pointer border-1 border-gray-500 pl-3 pr-3 pt-1 pb-1 text-gray-500
+                        hover:bg-gray-500 hover:text-white hover:transition-all hover:duration-500"
+                        onclick=mensagemSaibaMais()>Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 gap-3">
+                <div>
+                    <button class="cursor-pointer border-1 border-red-400 pl-5 pr-5 pt-1 pb-1 text-red-400
+                    hover:bg-red-400 hover:text-white hover:transition-all hover:duration-500">Duelo Normal</button>
+                    <button class="cursor-pointer border-1 border-red-400 pl-5 pr-5 pt-1 pb-1 text-red-400
+                    hover:bg-red-400 hover:text-white hover:transition-all hover:duration-500">Duelo Impossível</button>
+                </div>
+                <button class="cursor-pointer border-1 border-gray-500 pl-5 pr-5 pt-1 pb-1 text-gray-500
+                hover:bg-gray-500 hover:text-white hover:transition-all hover:duration-500"
+                id="verificarEstado">Verificar estado</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+    <script src="script.js"></script>
+</html>
